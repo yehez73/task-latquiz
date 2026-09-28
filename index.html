@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" crossorigin="anonymous"></script>
+    <title>Shoes Store</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <h2>SHOES.</h2>
+        </div>
+        <div class="menu">
+            <p>Home</p>
+            <p>Products</p>
+            <p>About</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" id="card">
+            <div>
+                <div class="crop">
+                    <img src="shoes.jpeg" alt="shoes.jpg">
+                </div>
+            </div>
+            
+            <div class="info">
+                <p class="tags">RUNNING SHOES</p>
+                <h1>Air Runner</h1>
+                <p class="description">
+                    Sepatu ringan dan nyaman untuk digunakan saat berolahraga maupun aktivitas sehari-hari.
+                </p>
+                <h3>Rp 899.000</h3>
+                <div class="options">
+                    <p>Pilih warna:</p>
+                    <div class="colours">
+                        <button class="btn1" onclick="changeColour('#DDDDDD')"></button>
+                        <button class="btn2" onclick="changeColour('#CFE2FF')"></button>
+                        <button class="btn3" onclick="changeColour('#F5E6CC')"></button>
+                    </div>
+                </div>
+                
+                <button class="btnAdd">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
